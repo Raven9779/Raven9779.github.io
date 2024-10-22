@@ -1,0 +1,54 @@
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略编辑器和 IDE 生成的文件
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.log
+*.idea/
+*.vscode/
+
+# 忽略编译生成的文件
+dist/
+build/
+out/
+*.min.js
+*.map
+
+# 忽略 Node.js 依赖文件
+node_modules/
+
+# 忽略环境配置文件
+.env
+.env.local
+.env.*.local
+
+# 忽略日志文件
+logs/
+*.log
+
+# 忽略临时文件
+*.tmp
+*.lock
+
+# 忽略测试文件
+coverage/
+test-results/
+
+# 忽略缓存文件
+.cache/
+.cachedir/
+
+# 忽略构建工具生成的文件
+webpack-stats.json
+
+# 忽略特定于项目的文件
+# 例如，如果你的项目中有一些特定的临时文件夹或文件，可以在这里添加
+temp/
+*.example
+
+public/
